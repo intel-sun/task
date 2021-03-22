@@ -1,0 +1,90 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap'); */
+
+.blog h2{
+    font-family: 'Raleway', sans-serif;
+    text-decoration: solid;
+    color:white;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+
+}
+                                                        
+.blog_grid{
+    display: grid;
+
+}
+body{
+    text-align: center;
+    justify-content: center;
+}
+.blog{
+    background-color:#fff;
+    margin-right: 28%;
+    margin-left: 28%;
+    border-radius: 15px;
+    padding-bottom: 25px;
+    height: 60%;
+    margin-bottom: 20px;
+    color: black;
+    margin-top: 25px;
+   
+}
+
+.page_title{
+    margin-top: 30px;
+    color: #fff;
+    font-size: 30px;
+}
+
+
+
+.blog h2{
+    font-size: 15px;
+    padding-top: 15px;
+    color: black;
+}
+
+.like{
+    justify-content: right;
+    text-align: right;
+}
+.blog p {
+    color:black;
+    font-style: italic;
+    font-weight: 100;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.like-button{
+    padding: 5px 5px;
+    color: black;
+    border-radius: 20px;
+    margin-right: 10px;
+    outline: none;
+    border: none;
+    background-color: rgba(77, 226, 7, 0.932);
+    
+}
+
+.vote-p{
+    display: inline;
+    margin-right: 2px;
+    color: white;
+    font-style: normal;
+}
+
+.white{
+    /* background:url("https://images.unsplash.com/photo-1499750310107-5fef28a66643?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"); */
+    padding-top: 20px;
+}
+
+.white h1{
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: black;
+    font-size: 4rem;
+    margin: 0;
+    padding: 0;
+}

@@ -1,0 +1,48 @@
+.error-wrapper {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin-bottom: 15px;
+    background: #f7f7f7;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+}
+
+.error-wrapper .title {
+    font-size: 32px;
+    font-weight: 700;
+    color: #000;
+}
+
+.error-wrapper .info {
+    font-size: 14px;
+}
+
+.home-btn, 
+.home-btn:focus, 
+.home-btn:hover, 
+.home-btn:visited {
+    text-decoration: none;
+    font-size: 14px;
+    color: #f0c30f;
+    padding: 17px 77px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+    display: block;
+    margin: 20px 0;
+    width: max-content;
+    background-color: transparent;
+    outline: 0;
+}
+
+.man-icon {
+    background: url('https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.ashesi.edu.gh%2Fimages%2Fnews_events%2Fnews%2F2015%2FSeptember%2FAshesi_GLAA.jpg&imgrefurl=https%3A%2F%2Fwww.ashesi.edu.gh%2Fstories-and-events%2F2036-ashesi-glaa.html&tbnid=K_Krg5Th9KXhNM&vet=12ahUKEwiT6YaF2L7tAhXKDuwKHQLBCi4QMygRegUIARDjAQ..i&docid=hMbT74bALUf9rM&w=1920&h=700&q=ashesi&ved=2ahUKEwiT6YaF2L7tAhXKDuwKHQLBCi4QMygRegUIARDjAQ.svg') center center no-repeat;
+    display: inline-block;
+    height: 100px;
+    width: 118px;
+    margin-bottom: 16px;
+}
